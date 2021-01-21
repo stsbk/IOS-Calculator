@@ -1,0 +1,36 @@
+.Button {
+    background: #333;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.Button.zero {
+    width: 250px;
+    grid-column: 1 / span 2;
+    border-radius: 55px;
+    position: relative;
+    justify-content: flex-start;
+    padding-left: 35px;
+}
+
+.Button.function {
+    background: gray;
+}
+
+.Button.operator {
+    background: orange;
+}
+
+.Button.equals {
+    background: orange;
+}
+
+.Button.memory-plus {
+    background: orange;
+}
